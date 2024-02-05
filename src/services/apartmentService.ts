@@ -1,4 +1,4 @@
-const Apartment = require("../models/Apartment");
+import Apartment from '../models/Apartment';
 
 exports.getApartments = async (req, res) => {
     try {
